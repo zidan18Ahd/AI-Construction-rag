@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
 def chunk_documents(docs, chunk_size=500, chunk_overlap=100):
     text_splitter = RecursiveCharacterTextSplitter(
@@ -18,4 +12,3 @@ def chunk_documents(docs, chunk_size=500, chunk_overlap=100):
         for split in splits:
             chunks.append({"text": split, "source": doc["source"]})
     return chunks
-
