@@ -1,0 +1,14 @@
+[
+    {"question": "What are the package prices per sqft?", "expected_source": "doc2.md"},
+    {"question": "How many quality checkpoints does Indecimal have?", "expected_source": "doc3.md"},
+    {"question": "What is the escrow-based payment model?", "expected_source": "doc3.md"},
+    {"question": "What does the zero-cost maintenance program cover?", "expected_source": "doc3.md"},
+    {"question": "What is the floor-to-floor ceiling height?", "expected_source": "doc2.md"},
+    {"question": "What steel brands are used in the Premier package?", "expected_source": "doc2.md"},
+    {"question": "What is the customer journey step after 'Design your custom home'?", "expected_source": "doc1.md"},
+    {"question": "Does Indecimal offer financing support?", "expected_source": "doc3.md"},
+    {"question": "What is the wallet amount for the main door in the Infinia package?", "expected_source": "doc2.md"},
+    {"question": "What paint is used for interior walls in the Essential package?", "expected_source": "doc2.md"},
+    {"question": "How does Indecimal handle project delays?", "expected_source": "doc3.md"},
+    {"question": "What differentiators does Indecimal highlight on its website?", "expected_source": "doc1.md"}
+]
